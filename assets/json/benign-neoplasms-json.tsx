@@ -58,7 +58,7 @@ export const benignNeoplasms = [
     prognostico: "Ótimo.",
     tratamento: "Excisão cirúrgica conservadora.",
     referencias: {
-      "1": "IRANI, Soussan et al. Giant Cell Fibroma: A Report of Seven Cases. Avicenna Journal of Dental Research, v. 14, n. 2, p. 88-91, 27 jun. 2022.",
+      "1": "IRANI, Soussan et al. Giant Cell Fibroma: A Report of Seven Cases. Avicenna Journal of Dental Research, 2022.",
       "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
     },
   },
@@ -76,7 +76,7 @@ export const benignNeoplasms = [
     prognostico: "Excelente, só ocorre recorrência se a excisão foi incompleta.",
     tratamento: "Apenas se remove por motivos estéticos. Se desejado, faz-se excisão cirúrgica e quando tem um volume maior, faz-se lipoaspiração.",
     referencias: {
-      "1": "KOLB, Logan et al. Lipoma. In: StatPearls [Internet]. StatPearls Publishing, 2021.",
+      "1": "KOLB, Logan et al. Lipoma. In: StatPearls, 2021.",
       "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
     },
   },
@@ -91,10 +91,10 @@ export const benignNeoplasms = [
     caracteristicas_clinicas: "Dor à palpação, parestesia.",
     diagnostico_diferencial: "",
     caracteristicas_histopatologicas: "Proliferação de células de schwann e axônios.",
-    prognostico: "A maioria não tem recidiva, mas, em alguns casos a dor persiste no momento ou posteriormente.",
+    prognostico: "A maioria não tem recidiva, mas em alguns casos a dor persiste no momento ou posteriormente.",
     tratamento: "Excisão cirúrgica junto com a parte do feixe nervoso envolvido.",
     referencias: {
-      "1": "MAYMONE, Mayra B. C. et al. Benign oral mucosal lesions: Clinical and pathological findings. Journal of the American Academy of Dermatology, v. 81, n. 1, p. 43-56, jul. 2019.",
+      "1": "MAYMONE, Mayra B. C. et al. Benign oral mucosal lesions. JAAD, 2019.",
       "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
     },
   },
@@ -112,7 +112,7 @@ export const benignNeoplasms = [
     prognostico: "Ótimo.",
     tratamento: "Excisão cirúrgica profunda.",
     referencias: {
-      "1": "MAYMONE, Mayra B. C. et al. Benign oral mucosal lesions: Clinical and pathological findings. Journal of the American Academy of Dermatology, 2019.",
+      "1": "MAYMONE, Mayra B. C. et al. Benign oral mucosal lesions. JAAD, 2019.",
       "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
     },
   },
@@ -130,7 +130,7 @@ export const benignNeoplasms = [
     prognostico: "Bom.",
     tratamento: "Não precisa ser removido, apenas se a criança tiver risco de vida. Laser pulsante de curta duração.",
     referencias: {
-      "1": "BUCKMILLER, LM; RICHTER, GT; SUEN, JY. Diagnosis and management of hemangiomas and vascular malformations of the head and neck. Oral Diseases, 2010.",
+      "1": "BUCKMILLER, LM et al. Diagnosis and management of hemangiomas. Oral Diseases, 2010.",
       "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
     },
   },
@@ -144,9 +144,10 @@ export const benignNeoplasms = [
     prevalencia: "Sem predileção.",
     caracteristicas_clinicas: "Lesões assintomáticas pequenas.",
     diagnostico_diferencial: "",
-    caracteristicas_histopatologicas: "A atividade osteoblástica encontra-se levemente aumentada. No osteoma compacto apresenta osso denso de aparência normal, já no esponjoso, são compostos de trabéculas ósseas e medula fibrogordurosa.",
+    caracteristicas_histopatologicas: "A atividade osteoblástica encontra-se levemente aumentada. No osteoma compacto apresenta osso denso de aparência normal; no esponjoso, são compostos de trabéculas ósseas e medula fibrogordurosa.",
+    caracteristicas_radiograficas: "Aparece como uma massa esclerótica circunscrita.",
     prognostico: "Bom.",
-    tratamento: "Excisão cirúrgica conservadora. Se pequeno e assintomático localizados endostealmente, não necessitam ser tratados, mas deve ser observado regularmente.",
+    tratamento: "Excisão cirúrgica conservadora. Se pequeno e assintomático localizados endostealmente, não necessitam ser tratados, mas devem ser observados regularmente.",
     referencias: {
       "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
     },

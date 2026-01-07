@@ -8,6 +8,9 @@ import InfeccaoPorHsv from './infeccao_por_hsv.png';
 import MaoPeBoca from './mao_pe_boca.png';
 import Molusco from './molusco.png';
 import MononucleoseInfecciosa from './mononucleose_infecciosa.png';
+import Varicela from './varicela.png';
+import Sarampo from './sarampo.png';
+import Rubeola from './rubeola.png';
 
 export {
   Candidiase,
@@ -20,4 +23,7 @@ export {
   MaoPeBoca,
   Molusco,
   MononucleoseInfecciosa,
+  Varicela,
+  Sarampo,
+  Rubeola,
 };
