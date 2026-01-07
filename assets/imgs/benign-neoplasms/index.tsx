@@ -1,23 +1,19 @@
-import EpidermoliseBolhosa from './epidermolise_bolhosa.png';
-import EritemaMultiforme from './eritema_multiforme.png';
-import EstomatiteAftosaReciditiva from './estomatite_aftosa_reciditiva.png';
-import GengivostomatiteHerpetica from './gengivostomatite_herpetica.png';
-import HerpesLabialRecorrente from './herpes_labial_recorrente.png';
-import Mucocele from './mucocele.png';
-import PenfigoVulgar from './penfigo_vulgar.png';
-import Penfigoide from './penfigoide.png';
-import Ranula from './ranula.png';
-import Sifilis from './sifilis.png';
+import Condiloma from './condiloma.png';
+import FibromaDeCelulasGigantes from './fibroma_de_celulas_gigantes.png';
+import Lipoma from './lipoma.png';
+import MalformacoesVasculares from './malformacoes_vasculares.png';
+import Neurofibroma from './neurofibroma.png';
+import Neuroma from './neuroma.png';
+import Osteoma from './osteoma.png';
+import Papiloma from './papiloma.png';
 
 export {
-  EpidermoliseBolhosa,
-  EritemaMultiforme,
-  EstomatiteAftosaReciditiva,
-  GengivostomatiteHerpetica,
-  HerpesLabialRecorrente,
-  Mucocele,
-  PenfigoVulgar,
-  Penfigoide,
-  Ranula,
-  Sifilis,
+  Condiloma,
+  FibromaDeCelulasGigantes,
+  Lipoma,
+  MalformacoesVasculares,
+  Neurofibroma,
+  Neuroma,
+  Osteoma,
+  Papiloma,
 };
