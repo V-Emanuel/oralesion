@@ -12,7 +12,7 @@ import {
   Varicela,
   Sarampo,
   Rubeola,
-} from "../../assets/imgs/childhood-oral-lesions";
+} from "../../assets/imgs/childhood-oral-lesions/index";
 
 export const childhoodOralLesions = [
   {

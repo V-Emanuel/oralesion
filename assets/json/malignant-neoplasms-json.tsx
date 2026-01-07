@@ -3,7 +3,7 @@ import {
   CarcinomaAdenoide,
   Carcinoma,
   Osteossarcoma,
-} from '../../assets/imgs/malignant-neoplasms';
+} from '../../assets/imgs/malignant-neoplasms/index';
 
 export const malignantNeoplasms = [
   {

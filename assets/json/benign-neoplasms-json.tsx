@@ -7,7 +7,7 @@ import {
   Neuroma,
   Osteoma,
   Papiloma,
-} from '../../assets/imgs/benign-neoplasms';
+} from '../../assets/imgs/benign-neoplasms/index';
 
 export const benignNeoplasms = [
   {
