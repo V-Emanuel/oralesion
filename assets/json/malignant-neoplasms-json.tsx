@@ -8,7 +8,7 @@ import {
 export const malignantNeoplasms = [
   {
     id: "1",
-    typeId: "7",
+    typeId: "6",
     nome: "Carcinoma Epidermoide",
     img: Carcinoma,
     fonte: "",
@@ -25,7 +25,7 @@ export const malignantNeoplasms = [
   },
   {
     id: "2",
-    typeId: "7",
+    typeId: "6",
     nome: "Adenoma Pleomórfico",
     img: Adenoma,
     fonte: "",
@@ -42,7 +42,7 @@ export const malignantNeoplasms = [
   },
   {
     id: "3",
-    typeId: "7",
+    typeId: "6",
     nome: "Carcinoma Adenoide Cístico",
     img: CarcinomaAdenoide,
     fonte: "",
@@ -61,7 +61,7 @@ export const malignantNeoplasms = [
   },
   {
     id: "4",
-    typeId: "7",
+    typeId: "6",
     nome: "Osteossarcoma",
     img: Osteossarcoma,
     fonte: "",

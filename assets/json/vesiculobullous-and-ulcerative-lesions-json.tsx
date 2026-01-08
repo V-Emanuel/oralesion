@@ -14,7 +14,7 @@ import {
 export const vesiculobullousAndUlcerativeLesions = [
   {
     id: "1",
-    typeId: "7",
+    typeId: "9",
     nome: "Estomatite Aftosa Recidivante",
     img: EstomatiteAftosa,
     fonte: "",
@@ -32,7 +32,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "2",
-    typeId: "7",
+    typeId: "9",
     nome: "Gengivoestomatite Herpética Primária",
     img: Gengivostomatite,
     fonte: "",
@@ -50,7 +50,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "3",
-    typeId: "7",
+    typeId: "9",
     nome: "Herpes Labial Recorrente",
     img: HerpesLabial,
     fonte: "",
@@ -68,7 +68,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "4",
-    typeId: "7",
+    typeId: "9",
     nome: "Penfigóide de Membranas Mucosas",
     img: Penfigoide,
     fonte: "",
@@ -86,7 +86,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "5",
-    typeId: "7",
+    typeId: "9",
     nome: "Eritema Multiforme",
     img: EritemaMultiforme,
     fonte: "",
@@ -104,7 +104,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "6",
-    typeId: "7",
+    typeId: "9",
     nome: "Pênfigo Vulgar",
     img: Penfigo,
     fonte: "",
@@ -121,7 +121,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "7",
-    typeId: "7",
+    typeId: "9",
     nome: "Epidermólise Bolhosa",
     img: EpidermoliseBolhosa,
     fonte: "",
@@ -138,7 +138,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "8",
-    typeId: "7",
+    typeId: "9",
     nome: "Mucocele",
     img: Mucocele,
     fonte: "",
@@ -155,7 +155,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "9",
-    typeId: "7",
+    typeId: "9",
     nome: "Sífilis",
     img: Sifilis,
     fonte: "",
@@ -172,7 +172,7 @@ export const vesiculobullousAndUlcerativeLesions = [
   },
   {
     id: "10",
-    typeId: "7",
+    typeId: "9",
     nome: "Rânula",
     img: Ranula,
     fonte: "",

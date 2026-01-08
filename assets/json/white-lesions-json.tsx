@@ -11,7 +11,7 @@ import {
 export const whiteLesions = [
   {
     id: "1",
-    typeId: "7",
+    typeId: "4",
     nome: "Leucoplasia",
     img: Leucoplasia,
     fonte: "",
@@ -29,7 +29,7 @@ export const whiteLesions = [
   },
   {
     id: "2",
-    typeId: "7",
+    typeId: "4",
     nome: "Líquen Plano",
     img: Liquen,
     fonte: "",
@@ -47,7 +47,7 @@ export const whiteLesions = [
   },
   {
     id: "3",
-    typeId: "7",
+    typeId: "4",
     nome: "Leucoplasia Pilosa",
     img: LeucoplasiaPilosa,
     fonte: "",
@@ -64,7 +64,7 @@ export const whiteLesions = [
   },
   {
     id: "4",
-    typeId: "7",
+    typeId: "4",
     nome: "Leucoceratose Nicotínica do Palato",
     img: Leucoceratose,
     fonte: "",
@@ -82,7 +82,7 @@ export const whiteLesions = [
   },
   {
     id: "5",
-    typeId: "7",
+    typeId: "4",
     nome: "Candidíase Pseudomembranosa",
     img: CandidiasePseudomembranosa,
     fonte: "",
@@ -100,7 +100,7 @@ export const whiteLesions = [
   },
   {
     id: "6",
-    typeId: "7",
+    typeId: "4",
     nome: "Grânulo de Fordyce",
     img: GranuloDeFordyce,
     fonte: "",
@@ -117,7 +117,7 @@ export const whiteLesions = [
   },
   {
     id: "7",
-    typeId: "7",
+    typeId: "4",
     nome: "Queilite Actínica",
     img: Queilite,
     fonte: "",

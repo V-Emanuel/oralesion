@@ -13,7 +13,7 @@ import {
 export const nonNeoplasticProliferativeProcesses = [
   {
     id: "1",
-    typeId: "7",
+    typeId: "3",
     nome: "Epúlide Fissurada",
     img: Epulide,
     fonte: "",
@@ -31,7 +31,7 @@ export const nonNeoplasticProliferativeProcesses = [
   },
   {
     id: "2",
-    typeId: "7",
+    typeId: "3",
     nome: "Hiperplasia Fibrosa por Câmara de Sucção",
     img: Hiperplasia,
     fonte: "",
@@ -49,7 +49,7 @@ export const nonNeoplasticProliferativeProcesses = [
   },
   {
     id: "3",
-    typeId: "7",
+    typeId: "3",
     nome: "Hiperplasia Fibrosa Focal (Fibroma)",
     img: Fibroma,
     fonte: "",
@@ -67,7 +67,7 @@ export const nonNeoplasticProliferativeProcesses = [
   },
   {
     id: "4",
-    typeId: "7",
+    typeId: "3",
     nome: "Pólipo Fibroepitelial (Fibroma por Dentadura)",
     img: Polipo,
     fonte: "",
@@ -85,7 +85,7 @@ export const nonNeoplasticProliferativeProcesses = [
   },
   {
     id: "5",
-    typeId: "7",
+    typeId: "3",
     nome: "Papilomatose Inflamatória por Dentadura",
     img: PapilomatosePorDentadura,
     fonte: "",
@@ -103,7 +103,7 @@ export const nonNeoplasticProliferativeProcesses = [
   },
   {
     id: "6",
-    typeId: "7",
+    typeId: "3",
     nome: "Granuloma Piogênico",
     img: Granuloma,
     fonte: "",
@@ -121,7 +121,7 @@ export const nonNeoplasticProliferativeProcesses = [
   },
   {
     id: "7",
-    typeId: "7",
+    typeId: "3",
     nome: "Lesões Periféricas de Células Gigantes",
     img: LesoesPerifericas,
     fonte: "",
@@ -140,7 +140,7 @@ export const nonNeoplasticProliferativeProcesses = [
   },
   {
     id: "8",
-    typeId: "7",
+    typeId: "3",
     nome: "Lesão Central de Células Gigantes",
     img: LesaoCentral,
     fonte: "",
@@ -159,7 +159,7 @@ export const nonNeoplasticProliferativeProcesses = [
   },
   {
     id: "9",
-    typeId: "7",
+    typeId: "3",
     nome: "Fibroma Ossificante Periférico",
     img: FibromaOssificante,
     fonte: "",

@@ -13,7 +13,7 @@ import {
 export const pigmentedLesions = [
   {
     id: "1",
-    typeId: "7",
+    typeId: "5",
     nome: "Pigmentação Racial",
     img: PigmentacaoRacial,
     fonte: "",
@@ -31,7 +31,7 @@ export const pigmentedLesions = [
   },
   {
     id: "2",
-    typeId: "7",
+    typeId: "5",
     nome: "Doença de Addison",
     img: Addison,
     fonte: "",
@@ -49,7 +49,7 @@ export const pigmentedLesions = [
   },
   {
     id: "3",
-    typeId: "7",
+    typeId: "5",
     nome: "Tatuagem por Amálgama",
     img: TatuagemPorAmalgama,
     fonte: "",
@@ -68,7 +68,7 @@ export const pigmentedLesions = [
   },
   {
     id: "4",
-    typeId: "7",
+    typeId: "5",
     nome: "Melanoma",
     img: Melanoma,
     fonte: "",
@@ -87,7 +87,7 @@ export const pigmentedLesions = [
   },
   {
     id: "5",
-    typeId: "7",
+    typeId: "5",
     nome: "Candidíase Eritematosa",
     img: CandidiaseEritematosa,
     fonte: "",
@@ -105,7 +105,7 @@ export const pigmentedLesions = [
   },
   {
     id: "6",
-    typeId: "7",
+    typeId: "5",
     nome: "Síndrome de Peutz-Jeghers",
     img: PeutzJeghers,
     fonte: "",
@@ -123,7 +123,7 @@ export const pigmentedLesions = [
   },
   {
     id: "7",
-    typeId: "7",
+    typeId: "5",
     nome: "Hemangioma",
     img: Hemangioma,
     fonte: "",
@@ -140,7 +140,7 @@ export const pigmentedLesions = [
   },
   {
     id: "8",
-    typeId: "7",
+    typeId: "5",
     nome: "Sarcoma de Kaposi",
     img: SarcomaDeKaposi,
     fonte: "",
@@ -157,7 +157,7 @@ export const pigmentedLesions = [
   },
   {
     id: "9",
-    typeId: "7",
+    typeId: "5",
     nome: "Nevo Melanocítico",
     img: NevoMelanocitico,
     fonte: "",

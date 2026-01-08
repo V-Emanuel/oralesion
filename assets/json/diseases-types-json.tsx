@@ -1,39 +1,39 @@
 export const diseasesTypes = [
     {
         id: 1,
-        name: "Lesões mais comuns",
+        name: "Lesões Mais Comuns",
     },
     {
         id: 2,
-        name: "Doenças bucais na infância",
+        name: "Doenças Bucais na Infância",
     },
      {
         id: 3,
-        name: "Processos proliferativos não neoplásicos",
+        name: "Processos Proliferativos Não Neoplásicos",
     },
      {
         id: 4,
-        name: "Lesões brancas",
+        name: "Lesões Brancas",
     },
      {
         id: 5,
-        name: "Lesões pigmentadas",
+        name: "Lesões Pigmentadas",
     },
      {
         id: 6,   
-        name: "Lesões ulcerativas e erosivas",
+        name: "Neoplasias Malignas",
     },
      {
         id: 7,
-        name: "Neoplasias benignas",
+        name: "Neoplasias Benignas",
     },
      {
         id: 8,
-        name: "Câncer de boca",
-    },
-     {
-        id: 9,
         name: "Síndromes",
+    },
+    {
+        id: 9,
+        name: "Lesões Vesiculo-bolhosas e Ulcerativas",
     },
      {
         id: 10,

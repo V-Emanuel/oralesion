@@ -14,7 +14,7 @@ import {
 export const mostCommonOralLesions = [
   {
     id: "1",
-    typeId: "7",
+    typeId: "1",
     nome: "Anquiloglossia",
     img: Anquiloglossia,
     fonte: "",
@@ -32,7 +32,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "2",
-    typeId: "7",
+    typeId: "1",
     nome: "Gengivite Descamativa",
     img: GengiviteDescamativa,
     fonte: "",
@@ -50,7 +50,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "3",
-    typeId: "7",
+    typeId: "1",
     nome: "Glossite Romboidal Mediana",
     img: GlossiteRomboidalMediana,
     fonte: "",
@@ -68,7 +68,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "4",
-    typeId: "7",
+    typeId: "1",
     nome: "Leucoedema",
     img: Leucoedema,
     fonte: "",
@@ -85,7 +85,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "5",
-    typeId: "7",
+    typeId: "1",
     nome: "Língua Geográfica",
     img: LinguaGeografica,
     fonte: "",
@@ -102,7 +102,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "6",
-    typeId: "7",
+    typeId: "1",
     nome: "Língua Fissurada",
     img: LinguaFissurada,
     fonte: "",
@@ -120,7 +120,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "7",
-    typeId: "7",
+    typeId: "1",
     nome: "Língua Saburrosa",
     img: LinguaSaburrosa,
     fonte: "",
@@ -137,7 +137,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "8",
-    typeId: "7",
+    typeId: "1",
     nome: "Linha Alba",
     img: LinhaAlba,
     fonte: "",
@@ -154,7 +154,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "9",
-    typeId: "7",
+    typeId: "1",
     nome: "Macroglossia",
     img: Macroglossia,
     fonte: "",
@@ -171,7 +171,7 @@ export const mostCommonOralLesions = [
   },
   {
     id: "10",
-    typeId: "7",
+    typeId: "1",
     nome: "Língua Pilosa Negra",
     img: LinguaPilosaNegra,
     fonte: "",

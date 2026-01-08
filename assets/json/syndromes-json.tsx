@@ -9,7 +9,7 @@ import {
 export const syndromesJson = [
   {
     id: "1",
-    typeId: "7",
+    typeId: "8",
     nome: "Síndrome de Gardner",
     img: Gardner,
     fonte: "",
@@ -27,7 +27,7 @@ export const syndromesJson = [
   },
   {
     id: "2",
-    typeId: "7",
+    typeId: "8",
     nome: "Síndrome de Behçet",
     img: Behcet,
     fonte: "",
@@ -45,7 +45,7 @@ export const syndromesJson = [
   },
   {
     id: "3",
-    typeId: "7",
+    typeId: "8",
     nome: "Síndrome de Peutz-Jeghers",
     img: PeutzJeghers,
     fonte: "",
@@ -63,7 +63,7 @@ export const syndromesJson = [
   },
   {
     id: "4",
-    typeId: "7",
+    typeId: "8",
     nome: "Doença de Addison",
     img: Addison,
     fonte: "",
@@ -81,7 +81,7 @@ export const syndromesJson = [
   },
   {
     id: "5",
-    typeId: "7",
+    typeId: "8",
     nome: "Síndrome de Sjogren",
     img: Sjogren,
     fonte: "",
