@@ -7,7 +7,7 @@ import {
   Neuroma,
   Osteoma,
   Papiloma,
-} from '../../assets/imgs/benign-neoplasms/index';
+} from "../../assets/images/benign-neoplasms/index";
 
 export const benignNeoplasms = [
   {
@@ -18,13 +18,16 @@ export const benignNeoplasms = [
     fonte: "",
     etiologia: "Papilomavírus humano (HPV).",
     prevalencia: "Sem predisposição.",
-    caracteristicas_clinicas: "Sítio acometido são língua, lábios e palato mole com um nódulo macio, indolor, exofítico, pedunculado e com projeções digitiformes.",
-    diagnostico_diferencial: "Verruga, condiloma acuminado, hiperplasia multifocal.",
-    caracteristicas_histopatologicas: "Proliferação do epitélio escamoso estratificado queratinizado, com projeções digitiformes com centros de tecido conjuntivo fibrovascular.",
+    caracteristicas_clinicas:
+      "Sítio acometido são língua, lábios e palato mole com um nódulo macio, indolor, exofítico, pedunculado e com projeções digitiformes.",
+    diagnostico_diferencial:
+      "Verruga, condiloma acuminado, hiperplasia multifocal.",
+    caracteristicas_histopatologicas:
+      "Proliferação do epitélio escamoso estratificado queratinizado, com projeções digitiformes com centros de tecido conjuntivo fibrovascular.",
     prognostico: "Ótimo.",
     tratamento: "Excisão cirúrgica até a base da lesão.",
     referencias: {
-      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
+      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
   {
@@ -35,13 +38,15 @@ export const benignNeoplasms = [
     fonte: "",
     etiologia: "Papilomavírus humano (HPV).",
     prevalencia: "Adolescentes e adultos jovens.",
-    caracteristicas_clinicas: "Aumento de volume exofítico, séssil, cor de rosa, bem delimitado e indolor.",
+    caracteristicas_clinicas:
+      "Aumento de volume exofítico, séssil, cor de rosa, bem delimitado e indolor.",
     diagnostico_diferencial: "Verruga comum e o papiloma escamoso.",
-    caracteristicas_histopatologicas: "Proliferação benigna do epitélio escamoso estratificado, finas linhas de tecido conjuntivo que sustenta as projeções papilares epiteliais.",
+    caracteristicas_histopatologicas:
+      "Proliferação benigna do epitélio escamoso estratificado, finas linhas de tecido conjuntivo que sustenta as projeções papilares epiteliais.",
     prognostico: "Ótimo.",
     tratamento: "Excisão cirúrgica conservadora.",
     referencias: {
-      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
+      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
   {
@@ -50,16 +55,20 @@ export const benignNeoplasms = [
     nome: "Fibroma de Células Gigantes",
     img: FibromaDeCelulasGigantes,
     fonte: "",
-    etiologia: "Um tumor com características clinicopatológicas distintas. Ao contrário do fibroma, ele não parece estar associado à irritação crônica.",
-    prevalencia: "Pacientes jovens nas primeiras 3 décadas de vida. Com uma pequena predileção pelo sexo feminino.",
-    caracteristicas_clinicas: "Assintomático e solitário nódulo séssil ou também pedunculado.",
+    etiologia:
+      "Um tumor com características clinicopatológicas distintas. Ao contrário do fibroma, ele não parece estar associado à irritação crônica.",
+    prevalencia:
+      "Pacientes jovens nas primeiras 3 décadas de vida. Com uma pequena predileção pelo sexo feminino.",
+    caracteristicas_clinicas:
+      "Assintomático e solitário nódulo séssil ou também pedunculado.",
     diagnostico_diferencial: "",
-    caracteristicas_histopatologicas: "Presença de estrelado fibroblastos com células mononucleadas e multinucleadas gigantes.",
+    caracteristicas_histopatologicas:
+      "Presença de estrelado fibroblastos com células mononucleadas e multinucleadas gigantes.",
     prognostico: "Ótimo.",
     tratamento: "Excisão cirúrgica conservadora.",
     referencias: {
       "1": "IRANI, Soussan et al. Giant Cell Fibroma: A Report of Seven Cases. Avicenna Journal of Dental Research, 2022.",
-      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
+      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
   {
@@ -70,14 +79,18 @@ export const benignNeoplasms = [
     fonte: "",
     etiologia: "Tumor benigno de gordura.",
     prevalencia: "Homens entre a 4ª e 6ª década de vida.",
-    caracteristicas_clinicas: "Cistos epidermoides, hibernomas, angiolipomas, angiomiolipomas e lipossarcomas.",
+    caracteristicas_clinicas:
+      "Cistos epidermoides, hibernomas, angiolipomas, angiomiolipomas e lipossarcomas.",
     diagnostico_diferencial: "Lipossarcoma.",
-    caracteristicas_histopatologicas: "Apresenta adipócitos maduros e de aspecto normal com um pequeno núcleo excêntrico. Os adipócitos estão entre finos septos fibrosos, o qual contém vasos sanguíneos.",
-    prognostico: "Excelente, só ocorre recorrência se a excisão foi incompleta.",
-    tratamento: "Apenas se remove por motivos estéticos. Se desejado, faz-se excisão cirúrgica e quando tem um volume maior, faz-se lipoaspiração.",
+    caracteristicas_histopatologicas:
+      "Apresenta adipócitos maduros e de aspecto normal com um pequeno núcleo excêntrico. Os adipócitos estão entre finos septos fibrosos, o qual contém vasos sanguíneos.",
+    prognostico:
+      "Excelente, só ocorre recorrência se a excisão foi incompleta.",
+    tratamento:
+      "Apenas se remove por motivos estéticos. Se desejado, faz-se excisão cirúrgica e quando tem um volume maior, faz-se lipoaspiração.",
     referencias: {
       "1": "KOLB, Logan et al. Lipoma. In: StatPearls, 2021.",
-      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
+      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
   {
@@ -86,16 +99,20 @@ export const benignNeoplasms = [
     nome: "Neuroma Traumático",
     img: Neuroma,
     fonte: "",
-    etiologia: "Processo não neoplásico, que ocorre em resposta a danos nos nervos. Normalmente tem história prévia de trauma (extração dentária, procedimento cirúrgico).",
+    etiologia:
+      "Processo não neoplásico, que ocorre em resposta a danos nos nervos. Normalmente tem história prévia de trauma (extração dentária, procedimento cirúrgico).",
     prevalencia: "Pode ocorrer em qualquer idade, mas predomina na meia idade.",
     caracteristicas_clinicas: "Dor à palpação, parestesia.",
     diagnostico_diferencial: "",
-    caracteristicas_histopatologicas: "Proliferação de células de schwann e axônios.",
-    prognostico: "A maioria não tem recidiva, mas em alguns casos a dor persiste no momento ou posteriormente.",
-    tratamento: "Excisão cirúrgica junto com a parte do feixe nervoso envolvido.",
+    caracteristicas_histopatologicas:
+      "Proliferação de células de schwann e axônios.",
+    prognostico:
+      "A maioria não tem recidiva, mas em alguns casos a dor persiste no momento ou posteriormente.",
+    tratamento:
+      "Excisão cirúrgica junto com a parte do feixe nervoso envolvido.",
     referencias: {
       "1": "MAYMONE, Mayra B. C. et al. Benign oral mucosal lesions. JAAD, 2019.",
-      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
+      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
   {
@@ -106,14 +123,16 @@ export const benignNeoplasms = [
     fonte: "",
     etiologia: "Tumor de origem da bainha nervosa.",
     prevalencia: "Quando solitário, tem preferência por adulto jovem.",
-    caracteristicas_clinicas: "Crescimento lento, assintomático, amolecido, que variam em tamanho, de pequenos nódulos a grandes aumentos de volume.",
+    caracteristicas_clinicas:
+      "Crescimento lento, assintomático, amolecido, que variam em tamanho, de pequenos nódulos a grandes aumentos de volume.",
     diagnostico_diferencial: "",
-    caracteristicas_histopatologicas: "Células fusiformes delgadas, núcleos ondulados e com muitos mastócitos.",
+    caracteristicas_histopatologicas:
+      "Células fusiformes delgadas, núcleos ondulados e com muitos mastócitos.",
     prognostico: "Ótimo.",
     tratamento: "Excisão cirúrgica profunda.",
     referencias: {
       "1": "MAYMONE, Mayra B. C. et al. Benign oral mucosal lesions. JAAD, 2019.",
-      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
+      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
   {
@@ -124,14 +143,17 @@ export const benignNeoplasms = [
     fonte: "",
     etiologia: "Erros congênitos no desenvolvimento vascular.",
     prevalencia: "Sem predileção.",
-    caracteristicas_clinicas: "Presença de uma mancha tipo 'vinho do porto', dor, sangramento e ulceração.",
+    caracteristicas_clinicas:
+      "Presença de uma mancha tipo 'vinho do porto', dor, sangramento e ulceração.",
     diagnostico_diferencial: "",
-    caracteristicas_histopatologicas: "Não exibem ativa proliferação das células endoteliais, e os canais vasculares lembram o vaso de origem.",
+    caracteristicas_histopatologicas:
+      "Não exibem ativa proliferação das células endoteliais, e os canais vasculares lembram o vaso de origem.",
     prognostico: "Bom.",
-    tratamento: "Não precisa ser removido, apenas se a criança tiver risco de vida. Laser pulsante de curta duração.",
+    tratamento:
+      "Não precisa ser removido, apenas se a criança tiver risco de vida. Laser pulsante de curta duração.",
     referencias: {
       "1": "BUCKMILLER, LM et al. Diagnosis and management of hemangiomas. Oral Diseases, 2010.",
-      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
+      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
   {
@@ -144,12 +166,15 @@ export const benignNeoplasms = [
     prevalencia: "Sem predileção.",
     caracteristicas_clinicas: "Lesões assintomáticas pequenas.",
     diagnostico_diferencial: "",
-    caracteristicas_histopatologicas: "A atividade osteoblástica encontra-se levemente aumentada. No osteoma compacto apresenta osso denso de aparência normal; no esponjoso, são compostos de trabéculas ósseas e medula fibrogordurosa.",
-    caracteristicas_radiograficas: "Aparece como uma massa esclerótica circunscrita.",
+    caracteristicas_histopatologicas:
+      "A atividade osteoblástica encontra-se levemente aumentada. No osteoma compacto apresenta osso denso de aparência normal; no esponjoso, são compostos de trabéculas ósseas e medula fibrogordurosa.",
+    caracteristicas_radiograficas:
+      "Aparece como uma massa esclerótica circunscrita.",
     prognostico: "Bom.",
-    tratamento: "Excisão cirúrgica conservadora. Se pequeno e assintomático localizados endostealmente, não necessitam ser tratados, mas devem ser observados regularmente.",
+    tratamento:
+      "Excisão cirúrgica conservadora. Se pequeno e assintomático localizados endostealmente, não necessitam ser tratados, mas devem ser observados regularmente.",
     referencias: {
-      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009."
+      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
 ];

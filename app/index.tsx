@@ -1,94 +1,93 @@
-import { LinearGradient } from "expo-linear-gradient";
-import { useEffect, useRef } from "react";
-import { Animated, Image, StyleSheet, View } from "react-native";
-export default function Index() {
-  const activeIndex = useRef(new Animated.Value(0)).current;
+import { categoriesData } from "@/assets/json/categoriesData";
+import { Ionicons } from "@expo/vector-icons";
+import {
+  FlatList,
+  Image,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-  useEffect(() => {
-    Animated.loop(
-      Animated.sequence([
-        Animated.timing(activeIndex, {
-          toValue: 3,
-          duration: 1200,
-          useNativeDriver: false,
-        }),
-        Animated.timing(activeIndex, {
-          toValue: 0,
-          duration: 0,
-          useNativeDriver: false,
-        }),
-      ]),
-    ).start();
-  }, []);
+export default function Index() {
+  const { top, bottom } = useSafeAreaInsets();
 
   return (
-    <View style={styles.view}>
-      <LinearGradient
-        colors={["#8C61B7", "#008CFF"]}
-        start={{ x: 0, y: 0 }}
-        end={{ x: 1, y: 1 }}
-        style={styles.background}
-      >
-        <Image
-          source={require("../assets/images/logos/white-logo.png")}
-          style={styles.icon}
-          resizeMode="contain"
-        />
+    <View style={styles.container}>
+      <FlatList
+        data={categoriesData}
+        numColumns={2}
+        keyExtractor={(item) => item.id}
+        contentContainerStyle={{
+          paddingTop: top + 16,
+          paddingBottom: bottom + 90,
+        }}
+        columnWrapperStyle={{ justifyContent: "space-between" }}
+        renderItem={({ item }) => (
+          <TouchableOpacity style={styles.card}>
+            <Image source={item.image} style={styles.image} />
+            <View style={styles.overlay}>
+              <Text style={styles.text}>{item.name}</Text>
+            </View>
+          </TouchableOpacity>
+        )}
+      />
 
-        <Image
-          source={require("../assets/images/logos/oralesion-name.png")}
-          style={styles.logo}
-          resizeMode="contain"
-        />
-
-        {/* Loading */}
-        <View style={styles.loadingContainer}>
-          {[0, 1, 2, 3].map((index) => {
-            const backgroundColor = activeIndex.interpolate({
-              inputRange: [index - 1, index, index + 1],
-              outputRange: ["#FFFFFF", "#8C61B7", "#FFFFFF"],
-              extrapolate: "clamp",
-            });
-
-            return (
-              <Animated.View
-                key={index}
-                style={[styles.square, { backgroundColor }]}
-              />
-            );
-          })}
-        </View>
-      </LinearGradient>
+      {/* FOOTER */}
+      <View style={[styles.footer, { paddingBottom: bottom }]}>
+        <Ionicons name="home" size={28} color="#fff" />
+        <Ionicons name="people" size={28} color="#3B82F6" />
+        <Ionicons name="mail" size={28} color="#fff" />
+      </View>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  view: {
+  container: {
     flex: 1,
+    backgroundColor: "#fff",
+    paddingHorizontal: 16,
   },
-  background: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
+
+  card: {
+    width: "48%",
+    aspectRatio: 1,
+    borderRadius: 20,
+    overflow: "hidden",
+    marginBottom: 16,
   },
-  icon: {
-    width: 70,
+
+  image: {
+    width: "100%",
+    height: "100%",
+  },
+
+  overlay: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    padding: 12,
+    backgroundColor: "rgba(0,0,0,0.35)",
+  },
+
+  text: {
+    color: "#fff",
+    fontSize: 14,
+    fontWeight: "600",
+  },
+
+  footer: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
     height: 70,
-    marginBottom: 0,
-  },
-  logo: {
-    width: 230,
-    height: 80,
-    marginBottom: 14,
-  },
-  loadingContainer: {
+    backgroundColor: "#D1D5DB",
     flexDirection: "row",
-    gap: 8,
-  },
-  square: {
-    width: 30,
-    height: 30,
-    borderRadius: 3,
+    justifyContent: "space-around",
+    alignItems: "center",
   },
 });
