@@ -1,5 +1,5 @@
-import People from "./people";
+import Contact from "./contact";
 
 export default function Index() {
-  return <People />;
+  return <Contact />;
 }
