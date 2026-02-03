@@ -1,6 +1,6 @@
 import Coagulograma from "./coagulograma.png";
 import Creatinina from "./creatinina.png";
-import GlicemiaEmJejum from "./gicemia_em_jejum.png";
+import GlicemiaEmJejum from "./glicemiaemjejum.png";
 import HemoglobinaGlicada from "./hemoglobina_glicada.png";
 import Hemograma from "./hemograma.png";
 import Tgo from "./tgo.png";

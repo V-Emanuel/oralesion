@@ -3,7 +3,7 @@ import { Papiloma } from "../images/benign-neoplasms";
 import { GengivoEstomatiteHerpetica } from "../images/childhood-oral-lesions";
 import { Carcinoma } from "../images/malignant-neoplasms";
 import { LinguaGeografica } from "../images/most-common-oral-lesions";
-import { Hiperplasia } from "../images/non-neoplastic-proliferative-processes";
+import { Fibroma } from "../images/non-neoplastic-proliferative-processes";
 import { PigmentacaoRacial } from "../images/pigmented-lesions";
 import { Sjogren } from "../images/syndromes";
 import { EstomatiteAftosa } from "../images/vesiculobullous-and-ulcerative-lesions";
@@ -23,7 +23,7 @@ export const categoriesData = [
   {
     id: "3",
     name: "Processos proliferativos não neoplásicos",
-    image: Hiperplasia,
+    image: Fibroma,
   },
   {
     id: "4",
