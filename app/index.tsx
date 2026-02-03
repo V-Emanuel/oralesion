@@ -1,5 +1,5 @@
-import Tais from "./tais";
+import CategoriesPage from "./categoriesPage";
 
 export default function Index() {
-  return <Tais />;
+  return <CategoriesPage />;
 }
