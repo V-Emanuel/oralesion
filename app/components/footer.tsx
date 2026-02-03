@@ -1,28 +1,52 @@
 import Entypo from "@expo/vector-icons/Entypo";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
-import { StyleSheet, View } from "react-native";
+import { usePathname, useRouter } from "expo-router";
+import { Pressable, StyleSheet, View } from "react-native";
 import { GradientIcon } from "./gradientIcon";
 
 export default function Footer() {
+  const router = useRouter();
+  const pathname = usePathname();
+
+  const isActive = (route: string) => pathname === route;
+
   return (
     <View style={styles.footer}>
-      <GradientIcon
-        size={42}
-        colors={["#3B82F6", "#7C3AED"] as const}
-        icon={<Entypo name="home" size={42} color="black" />}
-      />
+      <Pressable onPress={() => router.push("/")}>
+        {isActive("/") ? (
+          <GradientIcon
+            size={42}
+            colors={["#8C61B7", "#008CFF"] as const}
+            icon={<Entypo name="home" size={42} color="black" />}
+          />
+        ) : (
+          <Entypo name="home" size={42} color="#fff" />
+        )}
+      </Pressable>
 
-      <GradientIcon
-        size={54}
-        colors={["#3B82F6", "#06B6D4"] as const}
-        icon={<MaterialIcons name="groups" size={54} color="black" />}
-      />
-
-      <GradientIcon
-        size={42}
-        colors={["#7C3AED", "#EC4899"] as const}
-        icon={<MaterialIcons name="email" size={42} color="black" />}
-      />
+      {/* People */}
+      <Pressable onPress={() => router.push("/people")}>
+        {isActive("/people") ? (
+          <GradientIcon
+            size={54}
+            colors={["#8C61B7", "#008CFF"] as const}
+            icon={<MaterialIcons name="groups" size={54} color="black" />}
+          />
+        ) : (
+          <MaterialIcons name="groups" size={54} color="#fff" />
+        )}
+      </Pressable>
+      <Pressable onPress={() => router.push("/contact")}>
+        {isActive("/contact") ? (
+          <GradientIcon
+            size={42}
+            colors={["#8C61B7", "#008CFF"] as const}
+            icon={<MaterialIcons name="email" size={42} color="black" />}
+          />
+        ) : (
+          <MaterialIcons name="email" size={42} color="#fff" />
+        )}
+      </Pressable>
     </View>
   );
 }

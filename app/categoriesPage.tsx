@@ -9,7 +9,6 @@ import {
   View,
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import Footer from "./components/footer";
 
 export default function CategoriesPage() {
   const { top, bottom } = useSafeAreaInsets();
@@ -33,7 +32,6 @@ export default function CategoriesPage() {
           </TouchableOpacity>
         )}
       />
-      <Footer />
     </View>
   );
 }

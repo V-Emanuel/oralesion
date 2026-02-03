@@ -7,7 +7,6 @@ import {
     View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Footer from "./components/footer";
 
 export default function Contact() {
   const email = "oralesionapp@gmail.com";
@@ -34,7 +33,6 @@ export default function Contact() {
 
         <Text style={styles.helper}>clique para escrever e-mail</Text>
       </View>
-      <Footer />
     </SafeAreaView>
   );
 }

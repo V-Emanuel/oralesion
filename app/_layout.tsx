@@ -1,11 +1,11 @@
-import { Stack } from "expo-router";
+import { Slot } from "expo-router";
+import Footer from "./components/footer";
 
-export default function RootLayout() {
+export default function Layout() {
   return (
-    <Stack
-      screenOptions={{ headerShown: false, fullScreenGestureEnabled: true }}
-    >
-      <Stack.Screen name="index" />
-    </Stack>
+    <>
+      <Slot />
+      <Footer />
+    </>
   );
 }
