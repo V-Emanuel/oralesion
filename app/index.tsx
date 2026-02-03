@@ -1,5 +1,5 @@
-import Contact from "./contact";
+import Tais from "./tais";
 
 export default function Index() {
-  return <Contact />;
+  return <Tais />;
 }
