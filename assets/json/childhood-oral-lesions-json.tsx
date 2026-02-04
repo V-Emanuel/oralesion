@@ -54,7 +54,7 @@ export const childhoodOralLesions = [
     prognostico: "Duvidoso.",
     tratamento: "Bochecho com colutórios bucais anestésicos.",
     referencias: {
-      "1": "DE ALMEIDA LAWALL, Melaine et al. Gengivoestomatite herpética primária em adulto: relato de caso clínico. Revista Odonto Ciência, 2005.",
+      "1": "DE ALMEIDA LAWALL, Melaine et al. Gengivoestomatite herpética primária em adulto: relato de caso clínico. Revista Odonto Ciência, v. 20, n. 48, p. 191-194, 2005.",
     },
   },
   {

@@ -23,8 +23,8 @@ export default function Footer() {
           <Entypo name="home" size={42} color="#fff" />
         )}
       </Pressable>
-      <Pressable onPress={() => router.push("/people")}>
-        {isActive("/people") ? (
+      <Pressable onPress={() => router.push("/pager")}>
+        {isActive("/pager") ? (
           <GradientIcon
             size={54}
             colors={["#8C61B7", "#008CFF"] as const}

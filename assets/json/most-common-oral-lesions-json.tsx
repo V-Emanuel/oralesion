@@ -9,6 +9,11 @@ import {
   LinguaSaburrosa,
   LinhaAlba,
   Macroglossia,
+  Microglossia,
+  PapiliteLingual,
+  TorusMandibular,
+  TorusPalatino,
+  Varicosidades,
 } from "../../assets/images/most-common-oral-lesions/index";
 
 export const mostCommonOralLesions = [
@@ -105,7 +110,7 @@ export const mostCommonOralLesions = [
     etiologia: "Desconhecida.",
     prevalencia: "Mulheres 2:1 Homens.",
     caracteristicas_clinicas:
-      "Presença de áreas atróficas que acometem mais os 2/3 anteriores do dorso da língua, podendo concentrar-se na ponta ou bordas laterais. Pode ser assintomática ou apresentar sensibilidade na ingestão de alimentos temperados e ácidos. Em pacientes imunossuprimidos pode apresentar prurido.",
+      "Presença de áreas atróficas que acometem mais os 2/3 anteriores do dorso da língua, podendo concentrar-se na ponta ou bordas laterais. Pode ser assintomática ou apresentar sensibilidade na ingestão de alimentos temperados e ácidos. Em pacientes imunossuprimidos pode apresentar prurido. A lesão avança e regride rapidamente, iniciando um novo ciclo em várias áreas da língua do paciente. A lesão também pode acometer, com menos frequência.",
     diagnostico_diferencial: "Candidíase eritematosa e psoríase.",
     caracteristicas_histopatologicas:
       "Atrofia das papilas filiformes, com delimitações com bordas sinuosas ou festonadas, branco-amareladas. São observados hiperparaceratose, espongiose, acantose e alongamento das cristas epiteliais, além de coleções de neutrófilos e linfócitos envolvendo a lâmina própria.",
@@ -113,7 +118,7 @@ export const mostCommonOralLesions = [
     tratamento:
       "Em casos de sensibilidade é indicado o uso de corticóides tópicos: Géis de fluocinonida ou betametasona, podendo ser associados ao ácido retinóico.",
     referencias: {
-      "1": "GONZÁLEZ-ÁLVAREZ, L. et al. Lengua geográfica: factores predisponentes, diagnóstico y tratamiento. Revisión sistemática. Revista Clínica Española, 2018.",
+      "1": "GONZÁLEZ-ÁLVAREZ, L.; GARCÍA-POLA, M. J.; GARCIA-MARTIN, J. M. Lengua geográfica: factores predisponentes, diagnóstico y tratamiento. Revisión sistemática. Revista Clínica Española, v. 218, n. 9, p. 481-488, dez. 2018. Disponível em: https://doi.org/10.1016/j.rce.2018.05.006. Acesso em: 3 jan. 2023.",
     },
   },
   {
@@ -220,6 +225,114 @@ export const mostCommonOralLesions = [
     referencias: {
       "1": "BOLETO, Daniela. Pêlos na língua - um caso de língua pilosa negra. Revista Portuguesa de Clínica Geral, 2013.",
       "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
+    },
+  },
+  {
+    id: "11",
+    typeId: "1",
+    nome: "Papilite Lingual",
+    img: PapiliteLingual,
+    fonte: "",
+    etiologia:
+      "Causas sugeridas: Irritação local, estresse, doenças gastrointestinais, oscilação hormonal, infecção o aparelho respiratório, infecção viral e hipersensibilidade tópica.",
+    prevalencia: "Predileção por mulheres.",
+    caracteristicas_clinicas:
+      "Pápulas dolorosas, eritematosas ou branco-amareladas na língua. Terço anterior da língua. Surto de 3 a sete dias com cura espontânea, pode gerar febre em crianças.",
+    diagnostico_diferencial: "Candidíase eritematosa.",
+    caracteristicas_histopatologicas:
+      "Processo inflamatório agudo e hipertrofia das papilas linguais fungiformes.",
+    prognostico: "ótimo",
+    tratamento:
+      "Tratamentos para eliminar a dor: anestésicos tópicos, agentes protetores, corticoides tópicos.",
+    referencias: {
+      "1": "SOUZA, Paulo Ricardo Martins et al. Papilite lingual transitória-relato de caso. Scientia Medica (Porto Alegre), v. 22, n. 4, p. 208-210, 2012.",
+      "2": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
+    },
+  },
+  {
+    id: "12",
+    typeId: "1",
+    nome: "Tórus Mandibular",
+    img: TorusMandibular,
+    fonte: "",
+    etiologia:
+      "É considerado uma interação de fatores genéticos e ambientais, sugere-se uma herança autossômica dominante.",
+    prevalencia:
+      "Entre brancos e negros varia de 8% a 16% e não há predileção por sexo.",
+    caracteristicas_clinicas:
+      "Proeminências ósseas na face lingual da mandíbula, assintomático.",
+    diagnostico_diferencial:
+      "Displasia fibrosa, osteomas, osteossarcoma, condrossarcoma.",
+    caracteristicas_histopatologicas: "Massa nodular de osso cortical denso.",
+    prognostico: "Ótimo.",
+    tratamento:
+      "A intervenção cirúrgica só é necessária em casos de interferir na saúde ou no tratamento dos pacientes.",
+    referencias: {
+      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
+      "2": "Al Quran FA, Al-Dwairi ZN: Torus palatinus and torus mandibularis in edentulous patients, J Contemp Dent Pract 7:112-119, 2006.",
+    },
+  },
+  {
+    id: "13",
+    typeId: "1",
+    nome: "Tórus Palatino",
+    img: TorusPalatino,
+    fonte: "",
+    etiologia:
+      "É considerado uma interação de fatores genéticos e ambientais, sugere-se uma herança autossômica dominante.",
+    prevalencia: "Mulheres 2:1 Homens.",
+    caracteristicas_clinicas:
+      "Proeminências ósseas no palato duro, assintomático.",
+    diagnostico_diferencial:
+      "Abscesso palatino, linfangioma, tumores de glândulas salivares.",
+    caracteristicas_histopatologicas: "Massa de osso cortical lamelar denso.",
+    prognostico: "Ótimo.",
+    tratamento:
+      "A intervenção cirúrgica só é necessária em casos de interferir na saúde ou no tratamento dos pacientes.",
+    referencias: {
+      "1": "Al Quran FA, Al-Dwairi ZN: Torus palatinus and torus mandibularis in edentulous patients, J Contemp Dent Pract 7:112-119, 2006.",
+    },
+  },
+  {
+    id: "14",
+    typeId: "1",
+    nome: "Microglossia",
+    img: Microglossia,
+    fonte: "",
+    etiologia: "Desconhecida.",
+    prevalencia: "Sem predileção.",
+    caracteristicas_clinicas: "Língua anormalmente pequena.",
+    diagnostico_diferencial:
+      "Síndrome de Zika vírus (microcefalia), Sífilis congênita, A microcefalia (TORCH): HIV+; Toxoplasmose, Citomegalovírus, Rubéola e Herpes Simples, Síndrome de Richner-Hanhart, Síndrome de Rett.",
+    caracteristicas_histopatologicas: "Não apresenta anormalidade histológica.",
+    prognostico: "Bom.",
+    tratamento:
+      "Fonoaudiologia, ortodontia e em casos graves tratamento cirúrgico.",
+    referencias: {
+      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
+      "2": "HUIDROM, RajshreeDevi; NEPRAM, SanjibSingh; JAIN, Pradeep. Isolated microglossia: A case report. Journal of Medical Society, v. 29, n. 3, p. 180, 2015.",
+    },
+  },
+  {
+    id: "15",
+    typeId: "1",
+    nome: "Varicosidades",
+    img: Varicosidades,
+    fonte: "",
+    etiologia:
+      "Veias tortuosas e dilatadas que aparecem com o passar dos anos.",
+    prevalencia: "Predileção por idosos.",
+    caracteristicas_clinicas:
+      "Vesículas papulares ou elevadas múltiplas, azul-púrpuras, na margem lateral e ventre da língua. Em casos raros pode ocorrer trombose secundária.",
+    diagnostico_diferencial:
+      "Hemangioma, linfangiomas e outros hamartomas orais.",
+    caracteristicas_histopatologicas:
+      "Veia dilatada com pouco músculo liso nas paredes e tecido elástico pouco desenvolvido.",
+    prognostico: "Ótimo.",
+    tratamento:
+      "Quando múltiplas, não necessita de tratamento. Quando únicas é aconselhado a remoção cirúrgica por conta do risco de trombo.",
+    referencias: {
+      "1": "NEVILLE, Brad. Patologia oral e maxilofacial. 3 ed. Rio de Janeiro: Elsevier, 2009.",
     },
   },
 ];
