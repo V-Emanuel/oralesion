@@ -5,6 +5,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 /* =======================
    IMPORTS DOS JSONs
 ======================= */
+import { additionalTests } from "@/assets/json/additional-tests-json";
 import { benignNeoplasms } from "@/assets/json/benign-neoplasms-json";
 import { childhoodOralLesions } from "@/assets/json/childhood-oral-lesions-json";
 import { malignantNeoplasms } from "@/assets/json/malignant-neoplasms-json";
@@ -19,7 +20,7 @@ import { whiteLesions } from "@/assets/json/white-lesions-json";
    TIPOS
 ======================= */
 
-type CategoryKey = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9";
+type CategoryKey = "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" | "10";
 
 type Lesion = {
   id: string | undefined;
@@ -37,10 +38,6 @@ type Lesion = {
   referencias?: Record<string, string | undefined>;
 };
 
-/* =======================
-   MAPA DE DADOS
-======================= */
-
 const dataMap: Record<CategoryKey, Lesion[]> = {
   "1": mostCommonOralLesions,
   "2": childhoodOralLesions,
@@ -51,11 +48,8 @@ const dataMap: Record<CategoryKey, Lesion[]> = {
   "7": benignNeoplasms,
   "8": malignantNeoplasms,
   "9": syndromesJson,
+  "10": additionalTests,
 };
-
-/* =======================
-   COMPONENTE
-======================= */
 
 export default function Lesion() {
   const params = useLocalSearchParams<{
@@ -83,10 +77,8 @@ export default function Lesion() {
       style={styles.container}
       contentContainerStyle={{ paddingBottom: bottom + 32 }}
     >
-      {/* Imagem */}
       {lesion.img && <Image source={lesion.img} style={styles.image} />}
 
-      {/* Conteúdo */}
       <View style={styles.content}>
         <Text style={styles.title}>{lesion.nome}</Text>
 
@@ -125,10 +117,6 @@ export default function Lesion() {
   );
 }
 
-/* =======================
-   COMPONENTE DE SEÇÃO
-======================= */
-
 function Section({ title, text }: { title: string; text?: string }) {
   if (!text) return null;
 
@@ -139,10 +127,6 @@ function Section({ title, text }: { title: string; text?: string }) {
     </View>
   );
 }
-
-/* =======================
-   ESTILOS
-======================= */
 
 const styles = StyleSheet.create({
   container: {

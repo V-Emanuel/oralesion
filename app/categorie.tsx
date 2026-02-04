@@ -1,3 +1,4 @@
+import { additionalTests } from "@/assets/json/additional-tests-json";
 import { benignNeoplasms } from "@/assets/json/benign-neoplasms-json";
 import { childhoodOralLesions } from "@/assets/json/childhood-oral-lesions-json";
 import { malignantNeoplasms } from "@/assets/json/malignant-neoplasms-json";
@@ -29,6 +30,7 @@ export default function Categorie() {
     "7": benignNeoplasms,
     "8": malignantNeoplasms,
     "9": syndromesJson,
+    "10": additionalTests,
   };
 
   const data = dataMap[typeId ?? ""] ?? [];
