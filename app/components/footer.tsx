@@ -2,7 +2,7 @@ import Entypo from "@expo/vector-icons/Entypo";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { usePathname, useRouter } from "expo-router";
 import { Pressable, StyleSheet, View } from "react-native";
-import { GradientIcon } from "./gradientIcon";
+import GradientIcon from "./gradientIcon";
 
 export default function Footer() {
   const router = useRouter();
@@ -23,8 +23,6 @@ export default function Footer() {
           <Entypo name="home" size={42} color="#fff" />
         )}
       </Pressable>
-
-      {/* People */}
       <Pressable onPress={() => router.push("/people")}>
         {isActive("/people") ? (
           <GradientIcon

@@ -8,7 +8,7 @@ import {
   PigmentacaoRacial,
   SarcomaDeKaposi,
   TatuagemPorAmalgama,
-} from "../images/pigmented-lesions-images/index";
+} from "../images/pigmented-lesions/index";
 
 export const pigmentedLesions = [
   {

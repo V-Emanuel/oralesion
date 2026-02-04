@@ -1,5 +1,5 @@
 import { categoriesData } from "@/assets/json/categoriesData";
-
+import { useRouter } from "expo-router";
 import {
   FlatList,
   Image,
@@ -10,22 +10,42 @@ import {
 } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
+type Category = {
+  id: string;
+  name: string;
+  image: any;
+};
+
 export default function CategoriesPage() {
   const { top, bottom } = useSafeAreaInsets();
+  const router = useRouter();
+
+  const handleNavigate = (id: string) => {
+    router.push({
+      pathname: "/categorie",
+      params: { typeId: id },
+    });
+  };
+
   return (
     <View style={styles.container}>
       <FlatList
         data={categoriesData}
         numColumns={2}
         keyExtractor={(item) => item.id}
+        columnWrapperStyle={{ justifyContent: "space-between" }}
         contentContainerStyle={{
           paddingTop: top + 16,
           paddingBottom: bottom + 90,
         }}
-        columnWrapperStyle={{ justifyContent: "space-between" }}
-        renderItem={({ item }) => (
-          <TouchableOpacity style={styles.card}>
+        renderItem={({ item }: { item: Category }) => (
+          <TouchableOpacity
+            style={styles.card}
+            activeOpacity={0.8}
+            onPress={() => handleNavigate(item.id)}
+          >
             <Image source={item.image} style={styles.image} />
+
             <View style={styles.overlay}>
               <Text style={styles.text}>{item.name}</Text>
             </View>
@@ -40,7 +60,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    paddingHorizontal: 16,
+    paddingHorizontal: 30,
   },
 
   card: {
@@ -48,7 +68,7 @@ const styles = StyleSheet.create({
     aspectRatio: 1,
     borderRadius: 20,
     overflow: "hidden",
-    margin: 8,
+    marginVertical: 8,
   },
 
   image: {
@@ -57,22 +77,18 @@ const styles = StyleSheet.create({
   },
 
   overlay: {
-    width: "100%",
-    height: "100%",
     position: "absolute",
-    bottom: 0,
-    left: 0,
-    right: 0,
+    inset: 0,
     padding: 12,
     backgroundColor: "rgba(0,0,0,0.15)",
   },
 
   text: {
-    color: "#fff",
-    fontSize: 16,
-    fontWeight: "700",
     position: "absolute",
     bottom: 12,
     left: 12,
+    color: "#fff",
+    fontSize: 16,
+    fontWeight: "700",
   },
 });

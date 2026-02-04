@@ -2,7 +2,7 @@ import MaskedView from "@react-native-masked-view/masked-view";
 import { LinearGradient } from "expo-linear-gradient";
 import { View } from "react-native";
 
-export function GradientIcon({
+export default function GradientIcon({
   icon,
   size,
   colors,
