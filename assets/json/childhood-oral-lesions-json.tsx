@@ -221,8 +221,8 @@ export const childhoodOralLesions = [
     },
   },
   {
-    id: "2",
-    typeId: "7",
+    id: "11",
+    typeId: "2",
     nome: "Varicela",
     img: Varicela,
     fonte: "",
@@ -243,8 +243,8 @@ export const childhoodOralLesions = [
     },
   },
   {
-    id: "3",
-    typeId: "7",
+    id: "12",
+    typeId: "2",
     nome: "Sarampo",
     img: Sarampo,
     fonte: "",
@@ -264,8 +264,8 @@ export const childhoodOralLesions = [
     },
   },
   {
-    id: "4",
-    typeId: "7",
+    id: "13",
+    typeId: "2",
     nome: "Rubéola",
     img: Rubeola,
     fonte: "",
